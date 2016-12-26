@@ -25,7 +25,6 @@ Work with the latest firmware of Alcatel One Touch Y853 EE branded interface
 1. Install requirements in a virtualenv (or not) with `pip install -r requirements.txt`
 2. Make sure you are connected to the 4G router
 3. Modify the config dict in **TextManager.py** if credentials or ip is not defaults ones
-
 ```python
 config = {
     "router_addr": "http://192.168.1.1",
@@ -35,11 +34,9 @@ config = {
     }
 }
 ```
-
 4. Run app with a `python app.py`
 5. Do a test request
 
-```
 
 ##### Debug and Improvment
 
